@@ -37,7 +37,7 @@ public class BuildHeap {
     
            int n=arr.length;
 
-           for(int i=n/2;i>=0;i--){
+           for(int i=n/2;i>=0;i--){   //hepa creation function
 
                heapify(arr,i,n);
            }
